@@ -1,0 +1,20 @@
+This is a Data Structures and Algorithms assignment.
+
+Stacks are used by compilers to evaluate expressions and generate machine-language code.
+Humans generally write expressions like 3 + 4 and 7 / 9, in which the operator (+ or / here)
+is written between its operands. This is called inﬁx notation. To evaluate a complex inﬁx
+expression, a compiler would ﬁrst convert the expression to postﬁx notation, in which the
+operator is written to the right of its two operands. The preceding inﬁx expressions would
+appear in postﬁx notation as 3 4 + and 7 9 /, respectively.
+
+You are required to write a Java program to evaluate an expression in postﬁx notation and
+display the result. Assume that an expression ONLY contains parentheses, single-digit integers
+(as operands) and the following operators: “+”, “-”, “*”, “/”, “%”. The expressions in inﬁx
+notation are given in the ﬁle InﬁxExpressions.txt. The corresponding expressions in postﬁx
+notation are given in the ﬁle PostﬁxExpressions.txt. Your program should read the expressions
+from the ﬁle PostﬁxExpressions.txt, evaluate each postﬁx expression, and display the result
+in a tabular report. The partial Java program is given in the ﬁle PostﬁxEvaluator.java.
+Fill in the missing code in PostﬁxEvaluator.java to make the program complete and work
+properly. The test driver is given in the ﬁle TestDriver.java. You are required to create a
+package named labs.lab3 to include all the classes. The sample output of the program is given
+in the ﬁle SampleOutput.txt.
